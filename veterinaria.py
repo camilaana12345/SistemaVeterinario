@@ -2,9 +2,8 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
 import sqlite3
-
 # ---------------- BASE DE DATOS ----------------
-
+#Andres Mendoza
 conexion = sqlite3.connect("veterinaria.db")
 cursor = conexion.cursor()
 
