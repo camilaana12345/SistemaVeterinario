@@ -2,7 +2,7 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
 import sqlite3
-
+# Ana Daniela Diaz Perez
 # ---------------- BASE DE DATOS ----------------
 
 conexion = sqlite3.connect("veterinaria.db")
@@ -318,3 +318,4 @@ tabla.bind("<<TreeviewSelect>>", seleccionar_mascota)
 cargar_mascotas()
 ventana.protocol("WM_DELETE_WINDOW", cerrar_programa)
 ventana.mainloop()
+
